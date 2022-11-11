@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athon - Portal de atestados e requerimentos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="snackbar">Atestado/Declaração validado com sucesso.</div>
+  <div class="container">
+    <header class="header">
+      <p>Portal de Atestados e Requerimentos</p>
+      <div class="actions">
+        <button>
+          <img src="/envelope.svg" />
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="app">
+        <h4 class="title mb-16">
+          Consulta atestados e declarações
+        </h4>
+        <div class="input-group" 0>
+          <div id="div-code" class="form-group">
+            <div class="form-control">
+              <input id="code" type="text" placeholder="Digite o codigo do documento">
+            </div>
+            <span class="hint">
+              Código não encontrado. Verifique se digitou o código correto
+            </span>
+          </div>
+          <button class="btn" id="submitButton">
+            <img src="/magnifying-glass-solid.svg" />
+            Pesquisar
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+        Copyright ©2019 - Faculdade Athon
+      </p>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
