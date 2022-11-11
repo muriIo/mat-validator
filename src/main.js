@@ -1,4 +1,4 @@
-import './style.css'
+import './css/style.css'
 
 const submitButton = document.getElementById('submitButton');
 
